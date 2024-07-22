@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.helpController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="122.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="478.0" minWidth="10.0" prefWidth="478.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="182.0" minHeight="10.0" prefHeight="165.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="134.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="80.0" minHeight="0.0" prefHeight="62.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+       <Label alignment="CENTER" prefHeight="182.0" prefWidth="598.0" text="Az alkalmazás célja, hogy a felhasználó egy adott xml fájl szerkesztési fázisát megkönnyítse, és felgyorsítsa. A felhasználó először meg tud nyitni egy xml fájlt, aminek az előnézetét és fastruktúráját látja. A fastruktúrába kattintva tudja szerkeszteni az elemeket, elementeket tud hozzáadni, szerkeszteni és törölni és ezeket élőben látni a preview kódban. A fejlesztés befejezésével pedig lehetősége van kiexportálni a szerkesztett fájlt egy megadott mappába." textAlignment="CENTER" wrapText="true" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label text="Add" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label text="Edit" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" prefHeight="134.0" prefWidth="478.0" text="Ezzel a gombbal egy új ablakba kerül a felhasználó, ahol hozzáadhat egy új Xml elementet. Egy legördülő listából kiválaszthatja az element típusát (resources, constant, linking, binding, conversion, conversions), majd megadhatja a típushoz tartozó tulajdonságokat. Ezután elmenti a struktúrában." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="Delete" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label text="Import" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label text="Export" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" prefHeight="78.0" prefWidth="478.0" text="Ezzel a gombbal egy új ablakba kerül a felhasználó, ahol a kiválasztott Xml elementet tulajdonságait tudja módosítani, a megadott TextFieldekben." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="96.0" prefWidth="478.0" text="Ezzel a a gombbal egy kiválasztatott Xml elementet tud törölni a felhasználó az Xml fastruktúrából. Törlés előtt a program rákérdez, hogy biztosan törölni akarja e az elementet." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label alignment="CENTER" prefHeight="95.0" prefWidth="478.0" text="Ezzel a gombbal egy fájl betöltő ablakba kerül a felhasználó, ahonnan betöltheti a módosítani kívánt XML fájlt." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="96.0" prefWidth="478.0" text="Ezzel a gombbal egy fájl betöltő ablakba kerül a felhasználó, ahol kiválaszthatja a mentés helyét a felhasználó." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+   </children>
+</GridPane>

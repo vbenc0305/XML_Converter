@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.example","l":"AddNewLineController"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.example","l":"App"},{"p":"org.example","l":"EditLineController"},{"p":"org.example","l":"helpController"},{"p":"org.example","l":"PrimaryController"},{"p":"org.example","l":"TreeViewController"}];updateSearchResults();
